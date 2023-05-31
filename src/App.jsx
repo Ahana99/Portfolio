@@ -1,5 +1,8 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { TiSocialGithubCircular } from "react-icons/ti";
+import { TiSocialInstagramCircular } from "react-icons/ti";
 import { MdOpenInNew } from "react-icons/md";
+
 import image from "./asset/image.png";
 import design from "./asset/design.png";
 import code from "./asset/code.png";
@@ -48,12 +51,22 @@ export default function App() {
             <h3 className="text-2xl py-2 dark:text-white">
               Developer and Designer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-700 dark:text-gray-300">
+            <p className="text-md py-2 leading-8 text-gray-700 dark:text-gray-300">
               Frontend developer and designer. Bringing forth expertise in
               design, illustration and developement in React. Equipped with a
               diverse and promising skill-set.
             </p>
           </div>
+
+          <div className="flex justify-center">
+            <a href="https://github.com/Ahana99" target="_blank">
+              <TiSocialGithubCircular className="w-10 h-10 mx-4 fill-cyan-800 dark:fill-teal-500 cursor-pointer" />
+            </a>
+            <a href="https://www.instagram.com/the_evils_advocate/" target="_blank">
+              <TiSocialInstagramCircular className="w-10 h-10 mx-4 fill-cyan-800 dark:fill-teal-500 cursor-pointer" />
+            </a>
+          </div>
+
           <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 mt-10 items-center overflow-hidden">
             <img src={image} className="px-20"></img>
           </div>
