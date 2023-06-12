@@ -163,6 +163,29 @@ export default function App() {
 
               <div className="justify-center flex items-center">
                 <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
+                  Cryptodom
+                </h4>
+                <a href="https://cryptodom.ahana99.repl.co" target="_blank">
+                  <MdOpenInNew className="dark:fill-white" />
+                </a>
+              </div>
+
+              <p className="text-center  text-gray-800 py-1 text-sm dark:text-white">
+                React App
+              </p>
+
+              <ul>
+                <li className="text-gray-800 py-1 dark:text-white">
+                  - An app to view the latest and top most cryptocurrencies
+                </li>
+                <li className="text-gray-800 py-1 dark:text-white">
+                  - Based on concept of state, hooks, prop-drilling, components,
+                  react-router, conditional rendering, contextAPI and API calls
+                </li>
+              </ul>
+              
+              <div className="justify-center flex items-center">
+                <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
                   Quiz App
                 </h4>
                 <a href="https://quizapp.ahana99.repl.co/" target="_blank">
@@ -181,29 +204,6 @@ export default function App() {
                 <li className="text-gray-800 py-1 dark:text-white">
                   - Built on the concepts of reducer hook, state, context API,
                   custom hooks and conditional rendering
-                </li>
-              </ul>
-
-              <div className="justify-center flex items-center">
-                <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
-                  To-Do App
-                </h4>
-                <a href="https://todoapp.ahana99.repl.co/" target="_blank">
-                  <MdOpenInNew className="dark:fill-white" />
-                </a>
-              </div>
-
-              <p className="text-center  text-gray-800 py-1 text-sm dark:text-white">
-                React App
-              </p>
-
-              <ul>
-                <li className="text-gray-800 py-1 dark:text-white">
-                  - A to-do list app built with React framework
-                </li>
-                <li className="text-gray-800 py-1 dark:text-white">
-                  - Based on concept of state, hooks, prop-drilling, components,
-                  mapping array and conditional rendering
                 </li>
               </ul>
 
