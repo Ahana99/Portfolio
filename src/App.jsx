@@ -212,6 +212,32 @@ export default function App() {
 
               <div className="justify-center flex items-center">
                 <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
+                  Notes App
+                </h4>
+                <a href="https://notes-app.ahana99.repl.co/" target="_blank">
+                  <MdOpenInNew className="dark:fill-white" />
+                </a>
+              </div>
+
+              <p className="text-center  text-gray-800 py-1 text-sm dark:text-white">
+                React App
+              </p>
+
+              <ul>
+                <li className="text-gray-800 py-1 dark:text-white">
+                  - An app to store notes built with React framework and
+                  Firebase Database
+                </li>
+                <li className="text-gray-800 py-1 dark:text-white">
+                  - Based on concept of state, components, mapping array,
+                  conditional rendering, hooks and custom hooks, context APIs,
+                  and manipulating local storage, and manipulating cloud
+                  database hosted on Firebase
+                </li>
+              </ul>
+
+              <div className="justify-center flex items-center">
+                <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
                   Quiz App
                 </h4>
                 <a href="https://quizapp.ahana99.repl.co/" target="_blank">
@@ -230,30 +256,6 @@ export default function App() {
                 <li className="text-gray-800 py-1 dark:text-white">
                   - Built on the concepts of reducer hook, state, context API,
                   custom hooks and conditional rendering
-                </li>
-              </ul>
-
-              <div className="justify-center flex items-center">
-                <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
-                  Notes App
-                </h4>
-                <a href="https://notes-app.ahana99.repl.co/" target="_blank">
-                  <MdOpenInNew className="dark:fill-white" />
-                </a>
-              </div>
-
-              <p className="text-center  text-gray-800 py-1 text-sm dark:text-white">
-                React App
-              </p>
-
-              <ul>
-                <li className="text-gray-800 py-1 dark:text-white">
-                  - An app to store notes built with React framework
-                </li>
-                <li className="text-gray-800 py-1 dark:text-white">
-                  - Based on concept of state, components, mapping array,
-                  conditional rendering, hooks and custom hooks, context APIs,
-                  and manipulating local storage.
                 </li>
               </ul>
             </div>
