@@ -62,7 +62,10 @@ export default function App() {
             <a href="https://github.com/Ahana99" target="_blank">
               <TiSocialGithubCircular className="w-10 h-10 mx-4 fill-cyan-800 dark:fill-teal-500 cursor-pointer" />
             </a>
-            <a href="https://www.instagram.com/the_evils_advocate/" target="_blank">
+            <a
+              href="https://www.instagram.com/the_evils_advocate/"
+              target="_blank"
+            >
               <TiSocialInstagramCircular className="w-10 h-10 mx-4 fill-cyan-800 dark:fill-teal-500 cursor-pointer" />
             </a>
           </div>
@@ -183,7 +186,30 @@ export default function App() {
                   react-router, conditional rendering, contextAPI and API calls
                 </li>
               </ul>
-              
+
+              <div className="justify-center flex items-center">
+                <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
+                  Infosite
+                </h4>
+                <a href="https://infositeapp.ahana99.repl.co/" target="_blank">
+                  <MdOpenInNew className="dark:fill-white" />
+                </a>
+              </div>
+
+              <p className="text-center  text-gray-800 py-1 text-sm dark:text-white">
+                React App
+              </p>
+
+              <ul>
+                <li className="text-gray-800 py-1 dark:text-white">
+                  - An information site built with React JS.
+                </li>
+                <li className="text-gray-800 py-1 dark:text-white">
+                  - Built on the concepts of reducer hook, state, context API,
+                  custom hooks, React-router-DOM and conditional rendering.
+                </li>
+              </ul>
+
               <div className="justify-center flex items-center">
                 <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
                   Quiz App
@@ -228,29 +254,6 @@ export default function App() {
                   - Based on concept of state, components, mapping array,
                   conditional rendering, hooks and custom hooks, context APIs,
                   and manipulating local storage.
-                </li>
-              </ul>
-
-              <div className="justify-center flex items-center">
-                <h4 className="text-center py-2 mr-3 text-xl text-teal-600 dark:text-teal-300">
-                  Infosite
-                </h4>
-                <a href="https://infositeapp.ahana99.repl.co/" target="_blank">
-                  <MdOpenInNew className="dark:fill-white" />
-                </a>
-              </div>
-
-              <p className="text-center  text-gray-800 py-1 text-sm dark:text-white">
-                React App
-              </p>
-
-              <ul>
-                <li className="text-gray-800 py-1 dark:text-white">
-                  - An information site built with React JS.
-                </li>
-                <li className="text-gray-800 py-1 dark:text-white">
-                  - Built on the concepts of reducer hook, state, context API,
-                  custom hooks, React-router-DOM and conditional rendering.
                 </li>
               </ul>
             </div>
